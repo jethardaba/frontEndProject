@@ -1,0 +1,98 @@
+$defaultTextColor: rgb(255, 5, 7);
+$defaultBorderColor: #050505;
+$defaultDisplay: inline-block;
+$defaultBorder: ridge;
+$defaultTextAlign: center;
+$defaultFontFamily: Lucida Console;
+$defaultPadding: 10px;
+
+* {
+  color: $defaultTextColor;
+  text-align: $defaultTextAlign;
+  border:1px $defaultBorder $defaultBorderColor;
+  font-family: $defaultFontFamily;
+}
+
+body {
+  position: relative;
+  padding: $defaultPadding;
+  margin: 20px;
+  background-color: lightblue;
+}
+
+header {
+  margin-top: 1%;
+  padding: $defaultPadding;
+  background-color: #ff7b00;
+  nav {
+    margin-top: 10px;
+    padding: $defaultPadding;
+    background-color: #5afffa;
+  }
+}
+
+section {
+  display: $defaultDisplay;
+  background-color: #4B1CFF;
+  margin-top: 10px;
+  width: 28%;
+  float: left;
+  padding: $defaultPadding;
+  nav {
+    margin-top: 10px;
+    border-style: ridge;
+    padding: 241.5px 80px;
+    position: relative;
+    background-color: #5AFFFA;
+  }
+  footer.footer3 {
+    margin-top: 10px;
+    background-color: #808080;
+    padding: $defaultPadding;
+  }
+}
+.section2 {
+  width: 68%;
+  padding: 6.5px;
+  float: right;
+  margin-bottom: 10px;
+
+  article {
+    margin-top: 10px;
+    padding: $defaultPadding;
+    background-color: #007cff;
+    p {
+      margin-top: 10px;
+      border-style: ridge;
+      background-color: rgba(216, 159, 251, 0.76);
+      padding: $defaultPadding;
+    }
+  }
+  article {
+    .header2 {
+      padding: $defaultPadding;
+    }
+    #paragraph {
+      display: $defaultDisplay;
+      padding: $defaultPadding + 32.5;
+      width: 50%;
+    }
+    aside {
+      margin-top: 1%;
+      display: inline-block;
+      background-color: rgba(195, 71, 111, 0.67);
+      border-style: ridge;
+      width: 28%;
+      padding: $defaultPadding + 32.5;
+    }
+    footer {
+      padding: $defaultPadding;
+      background-color: #808080;
+    }
+  }
+}
+footer#footer2 {
+  background-color: #808080;
+  padding: $defaultPadding;
+  clear: both;
+}
