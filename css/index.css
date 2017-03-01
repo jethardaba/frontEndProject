@@ -1,7 +1,7 @@
 body {
     border-style: solid;
     position: relative;
-    background-color: gray;
+    background-color: rgba(59, 169, 171, 0.31);
     margin: 1%;
     padding: 1%;
     text-align: center;
@@ -9,7 +9,7 @@ body {
 header {
     margin-top: 1%;
     border-style: ridge;
-    background-color: lightgray;
+    background-color: lightblue;
     text-align: center;
     padding: 1% 1% 0.5% 1%;
 }
@@ -23,7 +23,7 @@ nav {
 section {
     border-style: ridge;
     display: inline-block;
-    background-color: grey;
+    background-color: rgba(44, 248, 29, 0.68);
     margin-top: 1%;
     width: 27%;
     text-align: center;
@@ -49,7 +49,7 @@ nav#nav {
 p {
     margin-top: 1%;
     border-style: ridge;
-    background-color: whitesmoke;
+    background-color: rgba(216, 159, 251, 0.76);
     text-align: center;
 
     padding: 1%;
@@ -57,7 +57,7 @@ p {
 aside {
     margin-top: 1%;
     display: inline-block;
-    background-color: whitesmoke;
+    background-color: rgba(195, 71, 111, 0.67);
     border-style: ridge;
     width: 28%;
     padding: 5%;
